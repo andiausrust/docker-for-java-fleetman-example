@@ -1,13 +1,9 @@
-FROM tomcat:alpine
+FROM openjdk:8u212-b04-jdk-slim-stretch
 
 MAINTAINER Andreas Mayer "https://github.com/andiausrust"
 
-EXPOSE 8008
+EXPOSE 8080
 
-RUN rm -rf /usr/local/tomcat/webapps/*
+COPY ./target/fleetman-0.0.1-SNAPSHOT.jar webapp.jar
 
-COPY ./target/fleetman-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/ROOT.war
-
-ENV JAVA_OPTS="-Dspring.profiles.active=docker-demo"
-
-CMD ["catalina.sh","run"]
+CMD ["java","-Dspring.profiles.active=docker-demo", "-jar", "webapp.jar"]
