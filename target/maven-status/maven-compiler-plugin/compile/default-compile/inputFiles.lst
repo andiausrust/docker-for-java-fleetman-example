@@ -1,0 +1,12 @@
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/services/RemoteMicroserviceStubImpl.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/domain/Vehicle.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/controllers/Position.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/TomcatWARApplication.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/services/PositionTrackingExternalService.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/Startup.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/data/VehicleRepository.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/FleetmanApplication.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/controllers/VehicleController.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/CloudConfiguration.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/WebSocketConfig.java
+/Users/AndreasMayer/Downloads/Chapter 7/fleetman-webapp/src/main/java/com/virtualpairprogrammers/services/RemotePositionMicroserviceCalls.java
