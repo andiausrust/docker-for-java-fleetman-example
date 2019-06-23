@@ -37,8 +37,6 @@ DNS works not for the default bridge, so you have to create network for containe
 / # mysql -uroot -ppassword -hdatabase  	//connect from a container in a network to a database on a container in the 						same network via container name (in that case database
 
 - docker container run -d —-net dude —net-alias search elasticsearch:2
-- docker container run —-rm —-net dude alpine nslookup search
-
 - docker history <nginx>
 
 - docker volume ls
