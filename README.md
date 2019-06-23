@@ -43,3 +43,43 @@ DNS works not for the default bridge, so you have to create network for containe
 - docker volume prune
 - docker container run -v mydata:/var/lib/mysql -d  -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=fleetman mysql
 - docker volume inspect mydata
+
+
+## Dockerfile 
+FROM openjdk:alpine
+
+MAINTAINER Andi Mayer "amayer80@gmail.com"
+
+EXPOSE 8080
+
+WORKDIR /usr/local/bin/
+
+COPY maven/fleetman-0.0.1-SNAPSHOT.jar webapp.jar
+
+CMD ["java","-Dspring.profiles.active=docker","-Djava.security.egd=file:/dev/./urandom","-jar","webapp.jar"]
+
+## docker-compose.yml
+version: "3"
+
+services:
+
+  fleetman:
+    image: andiausrust/fleetman
+    networks:
+      - fleetman-network
+    ports:
+      - 80:8080
+    depends_on:
+      - database
+
+  database:
+    image: mysql
+    networks:
+      - fleetman-network
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=fleetman
+
+
+networks:
+  fleetman-network:
