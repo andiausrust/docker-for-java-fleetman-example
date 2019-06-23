@@ -44,6 +44,8 @@ DNS works not for the default bridge, so you have to create network for containe
 - docker container run -v mydata:/var/lib/mysql -d  -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=fleetman mysql
 - docker volume inspect mydata
 
+![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/docker-compose.png)
+
 ![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/Dockerfile.png)
 
-![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/docker-compose.png)
+
