@@ -46,4 +46,4 @@ DNS works not for the default bridge, so you have to create network for containe
 
 ![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/Dockerfile.png)
 
-![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/Dockerfile.png)
+![Dockerfile](https://github.com/andiausrust/docker-for-java-fleetman-example/blob/master/docker-compose.png)
