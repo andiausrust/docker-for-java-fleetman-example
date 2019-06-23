@@ -214,7 +214,22 @@
 							<goal>build</goal>
 						</goals>
 					</execution>
+					<!-- integrate push to repository into deploy
+					<execution>
+						<id>my-deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>push</goal>
+						</goals>
+					</execution>
+					-->
 				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 			</plugin>
 		</plugins>
 		
