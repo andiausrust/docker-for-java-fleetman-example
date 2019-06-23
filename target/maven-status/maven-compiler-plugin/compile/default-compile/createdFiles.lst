@@ -1,0 +1,14 @@
+com/virtualpairprogrammers/services/RemoteMicroserviceStubImpl.class
+com/virtualpairprogrammers/Startup$ProductionVersion.class
+com/virtualpairprogrammers/services/RemotePositionMicroserviceCalls.class
+com/virtualpairprogrammers/services/PositionTrackingExternalService.class
+com/virtualpairprogrammers/controllers/VehicleController.class
+com/virtualpairprogrammers/data/VehicleRepository.class
+com/virtualpairprogrammers/CloudConfiguration.class
+com/virtualpairprogrammers/Startup.class
+com/virtualpairprogrammers/TomcatWARApplication.class
+com/virtualpairprogrammers/controllers/Position.class
+com/virtualpairprogrammers/domain/Vehicle.class
+com/virtualpairprogrammers/WebSocketConfig.class
+com/virtualpairprogrammers/Startup$LocalDevelopmentVersion.class
+com/virtualpairprogrammers/FleetmanApplication.class
