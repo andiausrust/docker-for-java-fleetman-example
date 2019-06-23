@@ -44,4 +44,4 @@ DNS works not for the default bridge, so you have to create network for containe
 - docker container run -v mydata:/var/lib/mysql -d  -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=fleetman mysql
 - docker volume inspect mydata
 
-
+![swagger-config](https://github.com/andiausrust/webservices-testing-poc/blob/master/Screenshot%20SwaggerConfig.png)
